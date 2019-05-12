@@ -1,7 +1,7 @@
 # Login_REST_API
-Implementation of a login REST API in Python3.6 using Flask-RESTful(https://flask-restful.readthedocs.io/en/latest/)
+Implementation of a login REST API in Python3.6 using Flask-RESTful(https://flask-restful.readthedocs.io/en/latest/), redis-py(https://github.com/andymccurdy/redis-py) and Redis(https://redis.io/) 
 
-The api.py code implements 2 REST APIs in Python. 
+The api.py code implements 2 REST APIs: 
 1. http://13.127.225.85:5010/sendOTP
 2. http://13.127.225.85:5010/login
 
