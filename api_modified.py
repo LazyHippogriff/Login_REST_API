@@ -102,7 +102,7 @@ class loginAPI(Resource):
         some_json = request.get_json()
         user = some_json['country_code'] + "_" + some_json['phone_number']
         mob_no = some_json['country_code'] + some_json['phone_number']
-        otpobj =  sendotp.sendotp('93539Af2uB9Za7o56063ad8','Your OTP is {{otp}}.')
+        otpobj =  sendotp.sendotp('9Af2uB93ad8','Your OTP is {{otp}}.')
         l_otp = random.randint(1000,9999)
         l_key = user + "_OTP"
         r.setex(l_key,150,l_otp)
